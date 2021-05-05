@@ -8,3 +8,10 @@
 ## 抽象工廠模式
 * ###優點：同一系列商品生產快速，像是hero就可以再產生一個spiderman之類的
 * ###缺點：如果要產生新的系列的話就會變得很麻煩，等於工廠再開一條不同的生產線
+
+## 單例模式
+* ###優點：在所有class中只有一個instance，降低資源消耗
+* ###缺點：沒有interface，不能繼承，與SOLID中的單一職責原則(SRP)衝突，一個類應該只關心內部邏輯，而不關心外面怎麼樣來實例化。
+* ###題外話
+    * [動態高併發時為什麼推薦ReentrantLock而不是Synchronized？](https://www.mdeditor.tw/pl/g2QV/zh-tw)
+    * [單例模式使用場景](https://blog.csdn.net/BlackPlus28/article/details/82794376)
