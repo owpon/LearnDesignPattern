@@ -15,6 +15,7 @@
 * ###題外話
     * [動態高併發時為什麼推薦ReentrantLock而不是Synchronized？](https://www.mdeditor.tw/pl/g2QV/zh-tw)
     * [單例模式使用場景](https://blog.csdn.net/BlackPlus28/article/details/82794376)
+  
 ##建造者模式
 * ###優點：可以獨立出一個builder，容易擴展開來
 * ###缺點：產品需要有共同的特性，類似取交集當作builder，剩下的細節再各自實作。但是如果內部變化複雜會有很多builder
